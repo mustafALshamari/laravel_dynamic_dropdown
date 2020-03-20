@@ -27,7 +27,7 @@ class RegisterationController extends Controller
             "email"  => $request->email,
             "oblast"  => $request->oblast,
             "gorod" => $request->gorod,
-            "raion"    => $request->raion // my new post => my-new-post
+            "raion"    => $request->raion 
            
         ]);
         return redirect()->back();
